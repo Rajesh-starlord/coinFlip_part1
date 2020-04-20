@@ -1,5 +1,5 @@
 #! /bin/bash -x
-#simulate coin flip
+#coin flip simulator (display heads or tails as winner)
 
 flip=$(($RANDOM%2))
 if [ $flip -eq 1 ];
